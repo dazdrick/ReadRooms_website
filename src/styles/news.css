@@ -1,0 +1,62 @@
+.news-content{
+    padding-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    color:  black;
+    gap: 1rem;
+    justify-content: center;
+
+}
+.news-box {
+
+    background-color: #F1F1F1;
+    border: 1px black;
+    border-radius: 3px;
+    padding: 5rem;
+    transition: all 0.3s ease-out;
+}
+
+.news-box h3 {
+    font-size: 3rem;
+}
+.news-box p {
+    font-size: 1.5rem;
+
+}
+
+.news-box:hover {
+    transition: all 0.3s ease-out;
+    padding: 5.2rem;
+    background-color: white;
+    text-decoration: underline;
+    text-shadow: gray 1px 1px;
+}
+main h2 {
+    font-size: 3rem;
+    padding-top: 5rem;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+
+}
+.offer-news {
+    padding-top: 15rem;
+    padding-bottom: 0;
+}
+.offer-link{
+    text-align: center;
+    padding-top: 2rem;
+
+}
+.offer-link a{
+    font-size: 3rem;
+    text-decoration: 0;
+    padding: 1rem;
+    color: black ;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.offer-link a:hover {
+    padding: 1.3rem;
+    font-size: 3.5rem;
+}

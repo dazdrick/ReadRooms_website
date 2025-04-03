@@ -1,0 +1,52 @@
+main h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 10rem;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+
+}
+main img {
+    height: 35%;
+    width: 35%;
+    align-items: center;
+}
+
+main .loc li {
+    font-size: 2rem;
+    text-align: center;
+    padding: 3rem;
+    list-style: none;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+
+}
+main .hours li{
+    font-size: 1.7rem;
+    text-align: center;
+    list-style: none;
+    padding: 1rem;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+
+}
+main h3 a:hover{
+    color: black;
+    background-color: white;
+    padding: 0.2%;
+    text-shadow: none;
+
+
+
+}
+main h3 a {
+
+     
+    color: white;
+
+}
+
+main h3 {
+    padding-top: 4rem;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}

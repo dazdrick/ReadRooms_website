@@ -1,0 +1,122 @@
+/*default elements styling*/
+body{
+    color: white;
+    background-color: #1e1e1e;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+header h1 {
+    margin: 0.5rem;
+    font-size: 3rem;
+}
+.nav-bar {
+    position: sticky;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #F1F1F1;
+    padding: 0.3rem;
+    margin: 0;
+}
+
+.nav-bar a{
+    font-size: clamp(0.8rem, 2vw, 2rem);
+    margin: 0.6rem;
+    padding: 0.4rem 0.8rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.nav-bar a:hover{
+    background: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+
+
+.preview-block{
+    padding-bottom: 40rem;
+    background-image: url("../img/library.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+    text-align: center;
+}
+.preview-block h2{
+    font-size: clamp(1rem, 5vw, 2rem);
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+.preview-block h1{
+    font-size: clamp(3rem, 5vw, 5rem);
+    padding-top: 25rem;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+
+}
+
+footer{
+    padding-top: 20rem;
+    padding-bottom: 10rem;
+    text-align: center;
+}
+
+footer .email-link:hover{
+    color: gray;
+}
+footer .email-link {
+    color: white;
+    font-size: 1.2rem;
+}
+.br-line {
+    font-size: 1.7vw;
+    text-align: center;
+}
+
+footer h2{
+    font-size: 4.5rem;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+
+}
+
+footer li{
+    text-align: center;
+    list-style: none;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+footer p {
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+footer .vertical-nav a{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+footer .copyR {
+    padding-top: 5rem;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+
+
+
+
+
+
+
