@@ -30,7 +30,7 @@ header h1 {
 }
 
 .nav-bar a{
-    font-size: clamp(0.8rem, 2vw, 2rem);
+    font-size: clamp(1rem, 2vw, 2rem);
     margin: 0.6rem;
     padding: 0.4rem 0.8rem;
     color: black;
@@ -41,7 +41,7 @@ header h1 {
 .nav-bar a:hover{
     background: black;
     color: white;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1.2rem;
     border-radius: 10px;
 }
 
@@ -49,20 +49,17 @@ header h1 {
 
 .preview-block{
     padding-bottom: 40rem;
-    background-image: url("../img/library.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
     text-align: center;
 }
 .preview-block h2{
     font-size: clamp(1rem, 5vw, 2rem);
-    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+    text-shadow: 9px 9px 15px black, 0 0 55px black, 0 0 50px black;
+
 }
 .preview-block h1{
     font-size: clamp(3rem, 5vw, 5rem);
     padding-top: 25rem;
-    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+    text-shadow: 9px 9px 9px black, 0 0 55px black, 0 0 50px black;
 
 }
 

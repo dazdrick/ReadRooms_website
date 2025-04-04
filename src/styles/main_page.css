@@ -1,4 +1,8 @@
-
+.preview-block{
+    background-image: url("../img/library.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .content h2{
     font-size: 3rem;
     padding-bottom: rem;

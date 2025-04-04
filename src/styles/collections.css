@@ -1,4 +1,9 @@
-main h2 {
+.preview-block{
+    background-image: url("../img/background5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content h2 {
     font-size: 3.5rem;
     text-align: center;
     text-decoration: underline;

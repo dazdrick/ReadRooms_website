@@ -1,3 +1,9 @@
+.preview-block{
+    background-image: url("../img/background2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .header-form{
     text-align: center;
     font-size: 3rem;
