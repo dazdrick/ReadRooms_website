@@ -1,3 +1,4 @@
+
 .preview-block{
     background-image: url("../img/background5.jpg");
     background-size: cover;
@@ -8,6 +9,9 @@
     text-align: center;
     text-decoration: underline;
     padding: 10rem;
+}
+.content a {
+    color: white;
 }
 main h3 {
     padding: 1rem;
@@ -20,16 +24,28 @@ main p {
     text-align: center;
 }
 
-th, td {
-    border: 1px solid white;
-    border-radius: 5px;
-    font-size: 1.7rem;
+/*table*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    font-size: 2rem;
+    border-bottom: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
     padding: 1rem;
-    background-color: white;
-    color: black;
+}
+td{
+    padding: 1rem;
+    font-size: 1.3rem;
+    border-bottom: 1px solid whitesmoke;
 }
 
+
+/*list*/
 dt {
+
     text-align: center;
     font-size: 2rem;
     text-decoration: underline;

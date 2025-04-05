@@ -3,19 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News</title>
+    <title>About us</title>
     <link rel="stylesheet" href="styles/default.css">
-    <link rel="stylesheet" href="styles/news.css">
+    <link rel="stylesheet" href="styles/hire.css">
 </head>
 <body>
+<div>
     <div>
         <header>
 
-
-
-
             <nav class="nav-bar">
-
                 <a href="index.html"> ← </a>
                 <a href="collections.html">Collections</a>
                 <a href="booking.html">Booking</a>
@@ -25,54 +22,65 @@
                 <a href="contact.html">Contact us</a>
             </nav>
 
-            <h1>ReadRooms</h1>
+            <h1>ReadRooms.form</h1>
 
         </header>
     </div>
 
     <div>
         <main>
-            <div class="preview-block">
-                <h1>Latest News</h1><br>
-                <h2>Stay informed</h2>
+
+            <div class="description">
+                <h2>Job description</h2>
+                <p>Candidate responsible for the management, care and provision of access to the collections.</p>
+                <p>Position name:</p>
+                <ul><li>Librarian</li></ul>
+                <p>Type:</p>
+                <ul><li>Full-time</li></ul>
+                <p>Salary:</p>
+                <ul><li>€45.000 - €60.000</li></ul>
+
+                <h2>Requirements</h2>
+                <ul>
+                    <li> 3 years of experience or degree in related field</li>
+                    <li> fluent in English</li>
+                    <li> candidate must be over 18+</li>
+                    <li> ability to commute</li>
+                    <li> communication skills</li>
+                </ul>
+                <h2>Closing date</h2>
+                <p class="last-date">Candidate must submit form before April 20 </p>
             </div>
 
+            <div class="form">
+                <form action="contact.html">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Your name..."><br>
 
-            <div class="content">
-                <section class="news-content">
-                    <div class="news-box">
-                        <h3>Student? <br> Buy reader ticket with 20% discount! </h3>
-                         <p>Provide you student card and purchase reader ticket with 20% off. </p>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Your surname..." ><br>
 
-                    </div>
-                    <div class="news-box">
-                        <h3>New collections coming soon!</h3>
-                        <p>Don't miss our new release! <br>
-                            Follow for our email notifications to stay informed.</p>
-                    </div>
+                    <label for="birth">Date of birth:</label><br>
+                    <input type="text" id="birth" name="birth" placeholder="Your date of birth..."><br>
+                    <label for="id5">Contact number:</label><br>
+                    <input type="text" id="id5" name="Message" placeholder="+353 "><br>
 
+                    <label for="email">Email address: </label><br>
+                    <input type="text" id="email" name="email" placeholder="Your email..."><br>
 
-                    <div class="news-box">
-                        <h3>We are hiring!</h3>
-                            <p>Visit our hire center to view available positions. <br>
-                                Don't miss your chance to get a dream job!</p><br>
-                        <a href="hire_form.html"><button type="button" class="apply-button" onclick="">Apply</button></a>
-                    </div>
-                    <div class="news-box">
-                        <h3>New studying space coming soon!</h3>
-                            <p>New studying space will be open soon. <br>
-                                Follow for our email notifications to stay informed.</p><br>
+                    <label for="id0">Previous experience: </label><br>
+                    <input type="text" id="id0" name="Message" placeholder="Your experience..."><br>
 
-                    </div>
-                </section>
+                    <label for="id1">Desired salary</label><br>
+                    <input type="text" id="id1" name="Message" placeholder="€13.5 - €20..."><br>
 
-                <div class="offer-news">
-                <h2>You've something to say? </h2>
-                <div class="offer-link">
-                <a href="mailto:b00174835@mytudublin.ie">Offer news</a>
-                </div>
-                </div>
+                    <label for="id2">Notes</label><br>
+                    <input type="text" id="id2" name="Message" placeholder="Anything else?"><br>
+
+                    <input type="submit" value="Apply" onclick="alert('Form submitted!')">
+                </form>
             </div>
+
 
         </main>
     </div>
@@ -117,8 +125,7 @@
             <p class="copyR">©2025 Presidents and Fellows of ReadRooms.</p>
         </footer>
     </div>
-
-
+</div>
 
 
 </body>

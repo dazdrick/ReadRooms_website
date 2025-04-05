@@ -3,6 +3,9 @@ body{
     color: white;
     background-color: #1e1e1e;
     margin: 0;
+    font-family:Optima, sans-serif;
+
+
 }
 h1,h2,h3,h4,h5,h6{
     margin: 0;
@@ -105,6 +108,7 @@ footer .vertical-nav a{
 }
 
 footer .copyR {
+    font-family: "Lucida Handwriting", cursive;
     padding-top: 5rem;
     font-size: 2rem;
     text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;

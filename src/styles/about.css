@@ -24,12 +24,12 @@
 }
 #ps {
     text-align: right;
-    padding: 4rem;
+    padding-right: 14rem;
 }
 
 #m {
     text-align: left;
-    padding: 4rem;
+    padding-left: 14rem;
 }
 .email-link:hover{
     color: gray;

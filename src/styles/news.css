@@ -36,6 +36,22 @@
     text-decoration: underline;
     text-shadow: gray 1px 1px;
 }
+.apply-button {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.7rem;
+    transition: 0.3s ease;
+    border-radius: 10px;
+}
+.apply-button:hover {
+    padding: 1.3rem ;
+    font-size: 1.9rem;
+    transition: 0.3s ease;
+    border-radius: 15px;
+    text-decoration: underline;
+}
 main h2 {
     font-size: 3rem;
     padding-top: 5rem;
