@@ -31,6 +31,23 @@
     text-align: left;
     padding-left: 14rem;
 }
+.siteMapLink{
+    text-align: center;
+    padding-top:10rem;
+}
+.siteMapLink a:hover{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 3.8rem ;
+    text-shadow: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+.siteMapLink a{
+    color:whitesmoke;
+    font-size: 3.5rem;
+}
 .email-link:hover{
     color: gray;
 }
